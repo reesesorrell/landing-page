@@ -19,7 +19,8 @@ a {
     flex-direction: column;
 }
 
-.top {
+.top,
+.footer {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px 18% 100px;
@@ -47,7 +48,8 @@ a {
     width: 400px;
 }
 
-.sign-up {
+.sign-up,
+.bottom-button {
     background-color: #3882f9;
     color: #F9FAF8;
     border: none;
@@ -128,4 +130,41 @@ a {
     font-weight: bold;
     font-size: medium;
     margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882f9;
+    margin: 100px 18%;
+    height: 130px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-time {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.over-there {
+    color: #E5E7EB;
+}
+
+.bottom-button {
+    margin: 0;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: small;
 }
